@@ -2,7 +2,6 @@ import { Router } from "express";
 import * as userServices from "./user.service.js";
 import * as userSchemas from "./user.validation.js";
 import { asyncHandler } from "./../../Utils/Error Handling/asyncHandler.js";
-import validation from "./../../MiddleWares/Validation.MiddleWare.js";
 import isAuthorized from "./../../MiddleWares/Authorization.MiddleWare.js";
 import { uploadCloud } from "../../Utils/File Uploading/multerCloud.js";
 import endPoints from "./user.endpoint.js";
@@ -10,7 +9,8 @@ import { fileValidation } from "../../Utils/eNums/enums.js";
 import jwt from "jsonwebtoken";
 import User from "../../DB/Models/user.model.js";
 import { verifyToken } from "../../Utils/Token/Token.js";
-
+import { Types } from "mongoose";
+import joi from "joi";
 
 const isAuthenticated = asyncHandler(async (req, res, next) => {
 
@@ -42,6 +42,23 @@ const isAuthenticated = asyncHandler(async (req, res, next) => {
   req.user = user;
   return next();
 })
+
+const validation =(schema) =>{
+  return (req,res,next)=>{
+      const data = {...req.body, ...req.query, ...req.params};
+
+      if(req.file || req.files?.length)
+          data.file = req.file || req.files
+      const result = schema.validate(data, {abortEarly:false});
+
+      if(result.error){
+          const messageList = result.error.details.map((obj)=>obj.message);
+          return next(new Error (messageList, {cause:400}))
+      }
+
+      return next();
+  }
+}
 
 const userRouter = Router();
 

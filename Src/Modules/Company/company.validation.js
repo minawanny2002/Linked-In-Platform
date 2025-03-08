@@ -1,5 +1,21 @@
 import joi from "joi"
-import { fileObjectValidation, isValidObjectID } from "../../MiddleWares/Validation.MiddleWare.js"
+import { Types } from "mongoose"
+const fileObjectValidation = function(fieldName){
+    return{
+    fieldname:joi.string().valid(fieldName).required(),
+    originalname:joi.string().required(),
+    encoding:joi.string().required(),
+    mimetype:joi.string().required(),
+    size:joi.number().required(),
+    destination : joi.string().required(),
+    filename:joi.string().required(),
+    path : joi.string().required()
+}}
+const isValidObjectID = (value, helper)=>{
+    if(Types.ObjectId.isValid(value))
+        return true
+    return helper.message("Invalid ObjectId !!")
+}
 
 
 //------------------------------------------------------------- Add Company ------------------------------------------------------------------
