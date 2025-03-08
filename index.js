@@ -50,3 +50,8 @@ io.on('connection', (socket) => {
       }
     });
   });
+
+  export default (req, res) => {
+    // Serverless function entry point, used by Vercel
+    app(req, res);
+  };
