@@ -5,9 +5,10 @@ import { asyncHandler } from "../../Utils/Error Handling/asyncHandler.js";
 import { uploadCloud } from "../../Utils/File Uploading/multerCloud.js";
 import endPoints from "./job.endpoints.js";
 import { fileValidation } from "../../Utils/eNums/enums.js";
-import isAuthenticated from "../../middlewares/validation.middleWare.js";
 import isAuthorized from "../../middlewares/authorization.middleWare.js";
+import isAuthenticated from "../../middlewares/authentication.middleWare.js";
 import validation from "../../middlewares/validation.middleWare.js";
+
 
 const jobRouter = Router({mergeParams:true});
 //------------------------------------------------------------- Add Job ------------------------------------------------------------------
