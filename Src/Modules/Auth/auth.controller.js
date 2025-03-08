@@ -2,26 +2,8 @@ import { Router } from "express";
 import * as authServices from "./auth.service.js";
 import * as authSchemas from "./auth.validation.js";
 import { asyncHandler } from "../../Utils/Error Handling/asyncHandler.js";
+import validation from "../../MiddleWares/Validation.MiddleWare.js"
 import { auth } from "google-auth-library";
-import { Types } from "mongoose";
-import joi from "joi";
-const validation =(schema) =>{
-  return (req,res,next)=>{
-      const data = {...req.body, ...req.query, ...req.params};
-
-      if(req.file || req.files?.length)
-          data.file = req.file || req.files
-      const result = schema.validate(data, {abortEarly:false});
-
-      if(result.error){
-          const messageList = result.error.details.map((obj)=>obj.message);
-          return next(new Error (messageList, {cause:400}))
-      }
-
-      return next();
-  }
-}
-
 
 const authRouter = Router();
 
