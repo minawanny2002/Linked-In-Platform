@@ -1,5 +1,5 @@
 import joi from "joi";
-import {isValidObjectID } from "../../../MiddleWares/validation.middleWare.js";
+import {isValidObjectID } from "../../../middlewares/validation.middleWare.js";
 
 
 
