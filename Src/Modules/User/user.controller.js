@@ -3,7 +3,7 @@ import * as userServices from "./user.service.js";
 import * as userSchemas from "./user.validation.js";
 
 import { asyncHandler } from "./../../Utils/Error Handling/asyncHandler.js";
-import validation from "../../MiddleWares/Validation.MiddleWare.js";
+import validation from "./../../MiddleWares/Validation.MiddleWare.js";
 import isAuthenticated from "../../MiddleWares/authentication.middleware.js";
 import isAuthorized from "./../../MiddleWares/Authorization.MiddleWare.js";
 
