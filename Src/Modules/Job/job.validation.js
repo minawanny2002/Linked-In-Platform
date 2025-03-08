@@ -1,24 +1,7 @@
 import joi from "joi"
 // import { fileObjectValidation, isValidObjectID } from "../../MiddleWares/Validation.MiddleWare.js"
 import { jobLocations, seniorityLevel, status, workingTime } from "../../Utils/eNums/enums.js"
-import { Types } from "mongoose"
-const fileObjectValidation = function(fieldName){
-  return{
-  fieldname:joi.string().valid(fieldName).required(),
-  originalname:joi.string().required(),
-  encoding:joi.string().required(),
-  mimetype:joi.string().required(),
-  size:joi.number().required(),
-  destination : joi.string().required(),
-  filename:joi.string().required(),
-  path : joi.string().required()
-}}
-export const isValidObjectID = (value, helper)=>{
-    if(Types.ObjectId.isValid(value))
-        return true
-    return helper.message("Invalid ObjectId !!")
-}
-
+import { fileObjectValidation, isValidObjectID } from "../../middlewares/validation.middleWare.js"
 
 //------------------------------------------------------------- Add Job ------------------------------------------------------------------
 export const addJob = joi.object({

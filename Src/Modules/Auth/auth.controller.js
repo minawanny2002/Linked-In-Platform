@@ -2,7 +2,7 @@ import { Router } from "express";
 import * as authServices from "./auth.service.js";
 import * as authSchemas from "./auth.validation.js";
 import { asyncHandler } from "../../Utils/Error Handling/asyncHandler.js";
-import validation from "../../MiddleWares/Validation.MiddleWare.js"
+import validation from "../../middlewares/validation.middleWare.js"
 import { auth } from "google-auth-library";
 
 const authRouter = Router();

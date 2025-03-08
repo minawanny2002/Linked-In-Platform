@@ -2,13 +2,13 @@ import { Router } from "express";
 import * as companyServices from "./company.service.js";
 import * as companySchemas from "./company.validation.js";
 import { asyncHandler } from "./../../Utils/Error Handling/asyncHandler.js";
-import isAuthorized from "./../../MiddleWares/Authorization.MiddleWare.js";
+import isAuthorized from "../../middlewares/authorization.middleWare.js";
 import { uploadCloud } from "../../Utils/File Uploading/multerCloud.js";
 import endPoints from "./company.endpoints.js";
 import { fileValidation } from "../../Utils/eNums/enums.js";
 import jobRouter from "../Job/job.controller.js";
-import validation from "../../MiddleWares/Validation.MiddleWare.js";
-import isAuthenticated from "../../MiddleWares/Authentication.MiddleWare.js";
+import validation from "../../middlewares/validation.middleWare.js";
+import isAuthenticated from "../../middlewares/authentication.middleWare.js";
 
 
 const companyRouter = Router();

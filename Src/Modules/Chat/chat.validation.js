@@ -1,11 +1,8 @@
-import { Types } from "mongoose";
-import joi from "joi";
+import joi from 'joi';
 import {genders} from "./../../Utils/eNums/enums.js";
-const isValidObjectID = (value, helper)=>{
-    if(Types.ObjectId.isValid(value))
-        return true
-    return helper.message("Invalid ObjectId !!")
-}
+import { isValidObjectID } from '../../middlewares/validation.middleWare.js';
+
+
 
 // chat History
 export const chatHistory= joi
