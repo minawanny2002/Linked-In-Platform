@@ -1,5 +1,5 @@
 import joi from "joi"
-import { fileObjectValidation, isValidObjectID } from "../../MiddleWares/validation.middleware.js"
+import { fileObjectValidation, isValidObjectID } from "../../MiddleWares/Validation.MiddleWare.js"
 
 
 //------------------------------------------------------------- Add Company ------------------------------------------------------------------

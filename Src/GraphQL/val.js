@@ -1,4 +1,4 @@
-export const validation = (schema)=>{
+export const val = (schema)=>{
     return (resolver)=>{
         return async(parent, args, context)=>{
             console.log(schema);

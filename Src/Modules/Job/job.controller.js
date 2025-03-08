@@ -7,7 +7,7 @@ import isAuthorized from "../../MiddleWares/Authorization.MiddleWare.js";
 import { uploadCloud } from "../../Utils/File Uploading/multerCloud.js";
 import endPoints from "./job.endpoints.js";
 import { fileValidation } from "../../Utils/eNums/enums.js";
-import validation from "../../MiddleWares/validation.middleware.js";
+import validation from "../../MiddleWares/Validation.MiddleWare.js";
 
 const jobRouter = Router({mergeParams:true});
 //------------------------------------------------------------- Add Job ------------------------------------------------------------------

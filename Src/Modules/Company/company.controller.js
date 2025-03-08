@@ -8,7 +8,8 @@ import { uploadCloud } from "../../Utils/File Uploading/multerCloud.js";
 import endPoints from "./company.endpoints.js";
 import { fileValidation } from "../../Utils/eNums/enums.js";
 import jobRouter from "../Job/job.controller.js";
-import validation from "../../MiddleWares/validation.middleware.js";
+import validation from "../../MiddleWares/Validation.MiddleWare.js";
+
 
 const companyRouter = Router();
 companyRouter.use("/:companyId/job", jobRouter);

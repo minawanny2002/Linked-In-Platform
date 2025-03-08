@@ -1,7 +1,7 @@
 import joi from "joi"
 // import { fileObjectValidation, isValidObjectID } from "../../MiddleWares/Validation.MiddleWare.js"
 import { jobLocations, seniorityLevel, status, workingTime } from "../../Utils/eNums/enums.js"
-import { fileObjectValidation, isValidObjectID } from "../../MiddleWares/validation.middleware.js"
+import { fileObjectValidation, isValidObjectID } from "../../MiddleWares/Validation.MiddleWare.js"
 
 //------------------------------------------------------------- Add Job ------------------------------------------------------------------
 export const addJob = joi.object({
