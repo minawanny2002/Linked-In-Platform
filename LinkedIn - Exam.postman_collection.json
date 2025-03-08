@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"k8d5l6z3wa@osxofulk.com\",\r\n    \"firstName\" : \"mon\",\r\n    \"lastName\" : \"mon\",\r\n    \"password\": \"12345\",\r\n    \"confirmPassword\": \"12345\",\r\n    \"DOB\" : \"2002-12-23\",\r\n    \"mobileNumber\" : \"11111111111\",\r\n    \"gender\" : \"male\"\r\n\r\n}",
+							"raw": "{\r\n    \"email\" : \"tlia7zv7z1@cmhvzylmfc.com\",\r\n    \"firstName\" : \"mon\",\r\n    \"lastName\" : \"mon\",\r\n    \"password\": \"12345\",\r\n    \"confirmPassword\": \"12345\",\r\n    \"DOB\" : \"2002-12-23\",\r\n    \"mobileNumber\" : \"11111111111\",\r\n    \"gender\" : \"male\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -43,7 +43,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"k8d5l6z3wa@osxofulk.com\",\r\n    \"OTP\" : \"danmj\"\r\n\r\n}",
+							"raw": "{\r\n    \"email\" : \"tlia7zv7z1@cmhvzylmfc.com\",\r\n    \"OTP\" : \"PsaUM\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -70,7 +70,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"hehop69396@makroyal.com\",\r\n    \"password\": \"12345\"\r\n\r\n}",
+							"raw": "{\r\n    \"email\" : \"tlia7zv7z1@cmhvzylmfc.com\",\r\n    \"password\": \"12345\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -237,7 +237,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTk1OTUsImV4cCI6MTc0MTQ2MzE5NX0.vjfTkihlf1AWE7T_DnnpdCWORPIfXLzk8FwO6agTuhU",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
@@ -270,7 +270,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
@@ -294,19 +294,19 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
 						"url": {
-							"raw": "{{baseURL}}/user/getAnotherProfile/67cc87c2b70a420b8f19bc2b",
+							"raw": "{{baseURL}}/user/getAnotherProfile/67cc9b2adcf0768991196803",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"user",
 								"getAnotherProfile",
-								"67cc87c2b70a420b8f19bc2b"
+								"67cc9b2adcf0768991196803"
 							]
 						}
 					},
@@ -319,7 +319,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
@@ -352,7 +352,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
@@ -362,7 +362,7 @@
 								{
 									"key": "images",
 									"type": "file",
-									"src": "/C:/Users/Mina_/Desktop/cool-cat-wearing-sunglasses-hoodie-posed-front-colorful-background_1376240-1341.jpg"
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-tshirt-design_841543-6910.jpg"
 								}
 							]
 						},
@@ -420,7 +420,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
@@ -468,7 +468,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
@@ -506,7 +506,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
@@ -515,7 +515,7 @@
 							"formdata": [
 								{
 									"key": "companyName",
-									"value": "ejada",
+									"value": "ejadauuuuuu",
 									"type": "text"
 								},
 								{
@@ -546,7 +546,7 @@
 								{
 									"key": "legalAttachment",
 									"type": "file",
-									"src": "/D:/GP - Tailored CV Generation/Papers/resumeflow.pdf"
+									"src": "/D:/My Papers/Mina Wanny (general).pdf"
 								}
 							]
 						},
@@ -569,13 +569,13 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"companyName\" :\"ejadaaaa\",\r\n    \"HRs\" : [\"67cc87c2b70a420b8f19bc2b\", \"67cc84def0e096aa4a5e74e4\"]\r\n}",
+							"raw": "{\r\n    \"companyName\" :\"ejadaaaa\",\r\n    \"HRs\" : [\"67cc9b2adcf0768991196803\"]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -583,14 +583,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/company/updateCompany/67cc8a5bb3d2cc011af4b428",
+							"raw": "{{baseURL}}/company/updateCompany/67ccc9808ecd7b1f64bf8aa8",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"company",
 								"updateCompany",
-								"67cc8a5bb3d2cc011af4b428"
+								"67ccc9808ecd7b1f64bf8aa8"
 							]
 						}
 					},
@@ -851,7 +851,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3NTkwMywiZXhwIjoxNzQxNDc5NTAzfQ.mbsqVu9QW8335GV78C8EgDf4kv9GivAHgc_OyiyN0lk",
 								"type": "text"
 							}
 						],
@@ -865,13 +865,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/company/67cc8a5bb3d2cc011af4b428/job",
+							"raw": "http://localhost:3000/company/67ccc9808ecd7b1f64bf8aa8/job",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
 								"company",
-								"67cc8a5bb3d2cc011af4b428",
+								"67ccc9808ecd7b1f64bf8aa8",
 								"job"
 							]
 						}
@@ -888,7 +890,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3NTkwMywiZXhwIjoxNzQxNDc5NTAzfQ.mbsqVu9QW8335GV78C8EgDf4kv9GivAHgc_OyiyN0lk",
 								"type": "text"
 							}
 						],
@@ -902,26 +904,27 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/company/name/ejadaaaa/job//jobForCompany?jobId=67cc8bc59cb1657e096176de&page=2",
+							"raw": "http://localhost:3000/company/name/ejadaaaa/job/jobForCompany?jobId=67ccd0d26e368fa0b22d8153&page=1",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
 								"company",
 								"name",
 								"ejadaaaa",
 								"job",
-								"",
 								"jobForCompany"
 							],
 							"query": [
 								{
 									"key": "jobId",
-									"value": "67cc8bc59cb1657e096176de"
+									"value": "67ccd0d26e368fa0b22d8153"
 								},
 								{
 									"key": "page",
-									"value": "2"
+									"value": "1"
 								}
 							]
 						}
@@ -1080,7 +1083,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3NTkwMywiZXhwIjoxNzQxNDc5NTAzfQ.mbsqVu9QW8335GV78C8EgDf4kv9GivAHgc_OyiyN0lk",
 								"type": "text"
 							}
 						],
@@ -1089,13 +1092,13 @@
 							"formdata": []
 						},
 						"url": {
-							"raw": "{{baseURL}}/job/67cc8bc59cb1657e096176de/applications?page=1",
+							"raw": "{{baseURL}}/job/67ccd0d26e368fa0b22d8153/applications?page=1",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"job",
-								"67cc8bc59cb1657e096176de",
+								"67ccd0d26e368fa0b22d8153",
 								"applications"
 							],
 							"query": [
@@ -1170,7 +1173,7 @@
 	"variable": [
 		{
 			"key": "base_url",
-			"value": "http://localhost:3000",
+			"value": "https://linked-in-platform.vercel.app",
 			"type": "string"
 		}
 	]
