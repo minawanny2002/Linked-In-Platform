@@ -4,7 +4,7 @@ import * as userSchemas from "./user.validation.js";
 
 import { asyncHandler } from "./../../Utils/Error Handling/asyncHandler.js";
 import validation from "./../../MiddleWares/Validation.MiddleWare.js";
-import isAuthenticated from "../../MiddleWares/authentication.middleware.js";
+import isAuthenticated from "./../../MiddleWares/Authentication.MiddleWare.js";
 import isAuthorized from "./../../MiddleWares/Authorization.MiddleWare.js";
 
 import { uploadCloud } from "../../Utils/File Uploading/multerCloud.js";
