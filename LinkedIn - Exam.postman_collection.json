@@ -1,0 +1,1177 @@
+{
+	"info": {
+		"_postman_id": "561fa663-778b-4cc0-84fa-b7e7373d5591",
+		"name": "LinkedIn - Exam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28545353"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"k8d5l6z3wa@osxofulk.com\",\r\n    \"firstName\" : \"mon\",\r\n    \"lastName\" : \"mon\",\r\n    \"password\": \"12345\",\r\n    \"confirmPassword\": \"12345\",\r\n    \"DOB\" : \"2002-12-23\",\r\n    \"mobileNumber\" : \"11111111111\",\r\n    \"gender\" : \"male\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/register",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Confirm OTP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"k8d5l6z3wa@osxofulk.com\",\r\n    \"OTP\" : \"danmj\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/confirmOTP",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"confirmOTP"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"hehop69396@makroyal.com\",\r\n    \"password\": \"12345\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login With Gmail",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Origin",
+								"value": "postman",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idToken\" : \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjI1ZjgyMTE3MTM3ODhiNjE0NTQ3NGI1MDI5YjAxNDFiZDViM2RlOWMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxNjEwMzIxNjgwOTEtNGc2dHAyMDVqOGJsOHYyOWxscmlxMHQ1M203bTU5YzEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxNjEwMzIxNjgwOTEtNGc2dHAyMDVqOGJsOHYyOWxscmlxMHQ1M203bTU5YzEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTAyNjI5MjE0Mzg0NTMzNDgzNDMiLCJlbWFpbCI6InRlc3RhcHBzbm9kZUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQwOTQxNjE4LCJuYW1lIjoiTW9uIG1vbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NMSFg5c3pfSXNzWUV3MlJlbDNDdUJlWEozc1JqVUx2NWdUZk1CajZ3RFhtdS1wdGc9czk2LWMiLCJnaXZlbl9uYW1lIjoiTW9uIiwiZmFtaWx5X25hbWUiOiJtb24iLCJpYXQiOjE3NDA5NDE5MTgsImV4cCI6MTc0MDk0NTUxOCwianRpIjoiOWFhNjJiNWI1MWU3N2FkY2E5ZTg3ZmYzNTNjMzM1YWNhMWMzYjFkMCJ9.BAOlzmepIbYJ6ShhIJDnFn5FKaLyrMAPuGpNjf_rHD8H7EtmKekTqNXhj5m4abNmZVVzNF6o9HulpNj054ZqlEhu9D9xvcHmbGvuB4F-0-OD4qvwcioysGnNSEFfp0KPOQ0IZNZU9NXAMQR-ffa6luK8PnAL87Eh5cHOk7zrKfYZZvDpYYb_YQHk-DQPMj-lpcKbO6vnjjSpbdp6qNLfmMyHdP-csMuB06gkF248RpYbeUEUB6a3za-GTzsx8yReYU2VN-BIg6YDEZJ6ZSMH60G2OWRMNJzxB41uPbmvfvwSBZybn_N1xXV35AhzSpeox_gNyBn8rf6qzxbkSZBR4A\"\r\n\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/loginWithGmail",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"loginWithGmail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OTP forget Password",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Origin",
+								"value": "postman",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"hehop69396@makroyal.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/OTP-forgetPassword",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"OTP-forgetPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Origin",
+								"value": "postman",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"hehop69396@makroyal.com\",\r\n    \"OTP\":\"3qvTN\",\r\n    \"password\":\"12345\",\r\n    \"confirmPassword\" : \"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/resetPassword",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"resetPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Access Token",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4N2MyYjcwYTQyMGI4ZjE5YmMyYiIsImVtYWlsIjoiazhkNWw2ejN3YUBvc3hvZnVsay5jb20iLCJpYXQiOjE3NDE0NTkzMTEsImV4cCI6MTc0MTQ2MjkxMX0.6bRt0US3l2x5yWjCo25DM7tEqR9uz3BNSdn-Ay-yWtg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"refreshToken\" : \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzQ4MTgzOTliMzQwYjI5YTRiNmZkMSIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MDk0OTI0NCwiZXhwIjoxNzQxNTU0MDQ0fQ.ddovOLwbje-dcsxRbQVUkfnRvtOT2uUQO9_rX6O2BGw\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/auth/new_access_token",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"new_access_token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Update Profile",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTk1OTUsImV4cCI6MTc0MTQ2MzE5NX0.vjfTkihlf1AWE7T_DnnpdCWORPIfXLzk8FwO6agTuhU",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\" : \"mon\",\r\n    \"lastName\" : \"mon\",\r\n    \"DOB\" : \"2005-2-23\",\r\n    \"mobileNumber\" : \"11111111111\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/user/update-profile",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"update-profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get my profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/user/profile",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get another profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/user/getAnotherProfile/67cc87c2b70a420b8f19bc2b",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"getAnotherProfile",
+								"67cc87c2b70a420b8f19bc2b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Password",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"oldPassword\" : \"12345\",\r\n    \"newPassword\" : \"12345\",\r\n    \"confirmNewPassword\" : \"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/user/updatePassword",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"updatePassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Profile Picture",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-wearing-sunglasses-hoodie-posed-front-colorful-background_1376240-1341.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/user/uploadProfilePicture",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"uploadProfilePicture"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Cover Picture",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-tshirt-design_841543-6910.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/user/uploadCoverPicture",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"uploadCoverPicture"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Profile Picture",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/user/deleteProfilePicture",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"deleteProfilePicture"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Cover Picture",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/user/deleteCoverPicture",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"deleteCoverPicture"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Soft Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTY2NTksImV4cCI6MTc0MTQ2MDI1OX0.glw05QzYO5u-zHyOVP5Itq9wp6rOZRD9ovn6_QPj7a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\" : \"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/user/softDelete",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"softDelete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "Add Company",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "companyName",
+									"value": "ejada",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "ejada for it",
+									"type": "text"
+								},
+								{
+									"key": "industry",
+									"value": "IT",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "6 - ahmed esamt",
+									"type": "text"
+								},
+								{
+									"key": "numberOfEmployees",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "companyEmail",
+									"value": "ejada@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "legalAttachment",
+									"type": "file",
+									"src": "/D:/GP - Tailored CV Generation/Papers/resumeflow.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/company",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Company",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"companyName\" :\"ejadaaaa\",\r\n    \"HRs\" : [\"67cc87c2b70a420b8f19bc2b\", \"67cc84def0e096aa4a5e74e4\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/updateCompany/67cc8a5bb3d2cc011af4b428",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"updateCompany",
+								"67cc8a5bb3d2cc011af4b428"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Soft Delete",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/softDeleteCompany/67cc8a5bb3d2cc011af4b428",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"softDeleteCompany",
+								"67cc8a5bb3d2cc011af4b428"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Companies",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/searchCompanies?companyName=j",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"searchCompanies"
+							],
+							"query": [
+								{
+									"key": "companyName",
+									"value": "j"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Logo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzQ4MTgzOTliMzQwYjI5YTRiNmZkMSIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTEyODU5MCwiZXhwIjoxNzQxMTMyMTkwfQ._zEpx_2i2DSDQI_2q4dSMjxtZZ2ablpKrBc8VGJ2phk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-wearing-sunglasses-hoodie-posed-front-colorful-background_1376240-1341.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/companyLogo/67c74464205bb1e7f2ed1d3b",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"companyLogo",
+								"67c74464205bb1e7f2ed1d3b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Cover Picture",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzQ4MTgzOTliMzQwYjI5YTRiNmZkMSIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTEyODU5MCwiZXhwIjoxNzQxMTMyMTkwfQ._zEpx_2i2DSDQI_2q4dSMjxtZZ2ablpKrBc8VGJ2phk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-wearing-pink-sunglasses-with-neon-light-background_514761-16858.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/uploadCoverPicture/67c74464205bb1e7f2ed1d3b",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"uploadCoverPicture",
+								"67c74464205bb1e7f2ed1d3b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Logo",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzQ4MTgzOTliMzQwYjI5YTRiNmZkMSIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTEyODU5MCwiZXhwIjoxNzQxMTMyMTkwfQ._zEpx_2i2DSDQI_2q4dSMjxtZZ2ablpKrBc8VGJ2phk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-wearing-sunglasses-hoodie-posed-front-colorful-background_1376240-1341.jpg",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/deleteLogo/67c74464205bb1e7f2ed1d3b",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"deleteLogo",
+								"67c74464205bb1e7f2ed1d3b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Cover Picture",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzQ4MTgzOTliMzQwYjI5YTRiNmZkMSIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTEyOTY4NCwiZXhwIjoxNzQxMTMzMjg0fQ.b0RhAhzx_vwozH4hkMcSVtr_iygJlPiikJu05MLndkk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-wearing-sunglasses-hoodie-posed-front-colorful-background_1376240-1341.jpg",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/deleteCoverPicture/67c74464205bb1e7f2ed1d3b",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"deleteCoverPicture",
+								"67c74464205bb1e7f2ed1d3b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Company With Jobs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/company/companyWithJobs/67cc8a5bb3d2cc011af4b428",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"companyWithJobs",
+								"67cc8a5bb3d2cc011af4b428"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Job",
+			"item": [
+				{
+					"name": "Add Job",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"jobTitle\" : \"backend\",\r\n  \"jobLocation\" : \"Hybrid\",\r\n  \"workingTime\" : \"Full-Time\",\r\n  \"seniorityLevel\" :\"Junior\",\r\n  \"jobDescription\" :\"Talented tester Required\",\r\n  \"technicalSkills\":  [\"selenium\" , \"postman\"],\r\n  \"softSkills\": [\"HardWorker\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/67cc8a5bb3d2cc011af4b428/job",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"67cc8a5bb3d2cc011af4b428",
+								"job"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Jobs Of A Company",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/company/name/ejadaaaa/job//jobForCompany?jobId=67cc8bc59cb1657e096176de&page=2",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"company",
+								"name",
+								"ejadaaaa",
+								"job",
+								"",
+								"jobForCompany"
+							],
+							"query": [
+								{
+									"key": "jobId",
+									"value": "67cc8bc59cb1657e096176de"
+								},
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Job",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzRhOGY0N2ExZjgwZGRmOWE5YTA3NyIsImVtYWlsIjoibWluYXdhbm55MjNAZ21haWwuY29tIiwiaWF0IjoxNzQxNDU0OTAyLCJleHAiOjE3NDE0NTg1MDJ9.YFuDEiM5MGWf5fH3T8hSoerNlWMr5ri7tkSF4fZYuXE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/job/67cc8194e5be3f7edb2754c4",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"job",
+								"67cc8194e5be3f7edb2754c4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Job",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"jobTitle\" : \"Backend developer\",\r\n  \"jobLocation\" : \"Hybrid\",\r\n  \"workingTime\" : \"Full-Time\",\r\n  \"seniorityLevel\" :\"Junior\",\r\n  \"jobDescription\" :\"Talented Backend Developer Required\",\r\n  \"technicalSkills\":  [\"Node\" , \"Express\"],\r\n  \"softSkills\": [\"HardWorker\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/job/67cc8bc59cb1657e096176de",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"job",
+								"67cc8bc59cb1657e096176de"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Jobs Filter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"workingTime\": \"Full-Time\" ,\r\n    \"jobLocation\":\"Hybrid\", \r\n    \"jobTitle\" : \"back\",\r\n    \"seniorityLevel\": \"Junior\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/job?page=1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"job"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Apply To Job",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "CV",
+									"type": "file",
+									"src": "/D:/GP - Tailored CV Generation/Papers/resumeflow.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseURL}}/job/67cc8bc59cb1657e096176de/apply",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"job",
+								"67cc8bc59cb1657e096176de",
+								"apply"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Applications",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{baseURL}}/job/67cc8bc59cb1657e096176de/applications?page=1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"job",
+								"67cc8bc59cb1657e096176de",
+								"applications"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept/Reject Application",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"status\" : \"Accepted\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/job/acceptRejectApp/67cc8df6b479b988a81327d4",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"job",
+								"acceptRejectApp",
+								"67cc8df6b479b988a81327d4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
