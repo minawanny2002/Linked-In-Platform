@@ -10,6 +10,7 @@ import jobRouter from "../Job/job.controller.js";
 import validation from "../../MiddleWares/Validation.MiddleWare.js";
 import isAuthenticated from "../../MiddleWares/Authentication.MiddleWare.js";
 
+
 const companyRouter = Router();
 companyRouter.use("/:companyId/job", jobRouter);
 companyRouter.use("/name/:companyName/job", jobRouter);
