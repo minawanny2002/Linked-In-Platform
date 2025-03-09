@@ -1,6 +1,6 @@
 import User from "../../DB/Models/user.model.js";
 import Randomstring from "randomstring";
-import { emailEmitter } from "./../../Utils/Email/emailEvent.js";
+import { emailEmitter } from "../../Utils/Email/emailEvent.js";
 import { compareHash, hash } from "../../Utils/Hashing/Hash.js";
 import { generateToken, verifyToken } from "../../Utils/Token/Token.js";
 import { OTPTypes, providers } from "../../Utils/eNums/enums.js";
