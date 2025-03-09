@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"tlia7zv7z1@cmhvzylmfc.com\",\r\n    \"firstName\" : \"mon\",\r\n    \"lastName\" : \"mon\",\r\n    \"password\": \"12345\",\r\n    \"confirmPassword\": \"12345\",\r\n    \"DOB\" : \"2002-12-23\",\r\n    \"mobileNumber\" : \"11111111111\",\r\n    \"gender\" : \"male\"\r\n\r\n}",
+							"raw": "{\r\n    \"email\" : \"k8d5l6z3wa@osxofulk.com\",\r\n    \"firstName\" : \"mon\",\r\n    \"lastName\" : \"mon\",\r\n    \"password\": \"12345\",\r\n    \"confirmPassword\": \"12345\",\r\n    \"DOB\" : \"2002-12-23\",\r\n    \"mobileNumber\" : \"11111111111\",\r\n    \"gender\" : \"male\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -43,7 +43,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"tlia7zv7z1@cmhvzylmfc.com\",\r\n    \"OTP\" : \"PsaUM\"\r\n\r\n}",
+							"raw": "{\r\n    \"email\" : \"k8d5l6z3wa@osxofulk.com\",\r\n    \"OTP\" : \"ILbiC\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -70,7 +70,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"tlia7zv7z1@cmhvzylmfc.com\",\r\n    \"password\": \"12345\"\r\n\r\n}",
+							"raw": "{\r\n    \"email\" : \"k8d5l6z3wa@osxofulk.com\",\r\n    \"password\": \"12345\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -138,7 +138,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"hehop69396@makroyal.com\"\r\n}",
+							"raw": "{\r\n    \"email\":\"k8d5l6z3wa@osxofulk.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -172,7 +172,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"hehop69396@makroyal.com\",\r\n    \"OTP\":\"3qvTN\",\r\n    \"password\":\"12345\",\r\n    \"confirmPassword\" : \"12345\"\r\n}",
+							"raw": "{\r\n    \"email\":\"k8d5l6z3wa@osxofulk.com\",\r\n    \"OTP\":\"3qvTN\",\r\n    \"password\":\"12345\",\r\n    \"confirmPassword\" : \"12345\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -352,7 +352,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NkNjVlNjU2NTdlMGUxMDE1MWNhNCIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTQ3NzY0NSwiZXhwIjoxNzQxNDgxMjQ1fQ.xsLEgJmZHdK0tx4L5oCLPCA7we9fcec2uNJz0Xx7Gc8",
 								"type": "text"
 							}
 						],
@@ -506,7 +506,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NkNjVlNjU2NTdlMGUxMDE1MWNhNCIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTQ3NzY0NSwiZXhwIjoxNzQxNDgxMjQ1fQ.xsLEgJmZHdK0tx4L5oCLPCA7we9fcec2uNJz0Xx7Gc8",
 								"type": "text"
 							}
 						],
@@ -515,12 +515,12 @@
 							"formdata": [
 								{
 									"key": "companyName",
-									"value": "ejadauuuuuu",
+									"value": "ejadauuuuuuuu",
 									"type": "text"
 								},
 								{
 									"key": "description",
-									"value": "ejada for it",
+									"value": "ejadaa for it",
 									"type": "text"
 								},
 								{
@@ -540,13 +540,13 @@
 								},
 								{
 									"key": "companyEmail",
-									"value": "ejada@gmail.com",
+									"value": "ejadaaaau@gmail.com",
 									"type": "text"
 								},
 								{
 									"key": "legalAttachment",
 									"type": "file",
-									"src": "/D:/My Papers/Mina Wanny (general).pdf"
+									"src": []
 								}
 							]
 						},
@@ -569,13 +569,13 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3MzY0NCwiZXhwIjoxNzQxNDc3MjQ0fQ.cpBlEeoLwYGhVZIJAFr5Mt6GBrgLRqnWBJmdHhrsho4",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NkNjVlNjU2NTdlMGUxMDE1MWNhNCIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTQ3ODkwNCwiZXhwIjoxNzQxNDgyNTA0fQ.F0xSmPLW0wQ0AIw3Z41BIEWoQBRcG3RV2SXBBgJUQD8",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"companyName\" :\"ejadaaaa\",\r\n    \"HRs\" : [\"67cc9b2adcf0768991196803\"]\r\n}",
+							"raw": "{\r\n\r\n    \"HRs\" : [\"67ccd65e65657e0e10151ca4\"]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -583,14 +583,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/company/updateCompany/67ccc9808ecd7b1f64bf8aa8",
+							"raw": "{{baseURL}}/company/updateCompany/67ccd8d87421f29ce7ae0334",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"company",
 								"updateCompany",
-								"67ccc9808ecd7b1f64bf8aa8"
+								"67ccd8d87421f29ce7ae0334"
 							]
 						}
 					},
@@ -679,7 +679,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzQ4MTgzOTliMzQwYjI5YTRiNmZkMSIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTEyODU5MCwiZXhwIjoxNzQxMTMyMTkwfQ._zEpx_2i2DSDQI_2q4dSMjxtZZ2ablpKrBc8VGJ2phk",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NkNjVlNjU2NTdlMGUxMDE1MWNhNCIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTQ3NzY0NSwiZXhwIjoxNzQxNDgxMjQ1fQ.xsLEgJmZHdK0tx4L5oCLPCA7we9fcec2uNJz0Xx7Gc8",
 								"type": "text"
 							}
 						],
@@ -689,19 +689,19 @@
 								{
 									"key": "images",
 									"type": "file",
-									"src": "/C:/Users/Mina_/Desktop/cool-cat-wearing-sunglasses-hoodie-posed-front-colorful-background_1376240-1341.jpg"
+									"src": "/C:/Users/Mina_/Desktop/cool-cat-tshirt-design_841543-6910.jpg"
 								}
 							]
 						},
 						"url": {
-							"raw": "{{baseURL}}/company/companyLogo/67c74464205bb1e7f2ed1d3b",
+							"raw": "{{baseURL}}/company/companyLogo/67ccd8d87421f29ce7ae0334",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"company",
 								"companyLogo",
-								"67c74464205bb1e7f2ed1d3b"
+								"67ccd8d87421f29ce7ae0334"
 							]
 						}
 					},
@@ -851,7 +851,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NjNmM5OGVjZDdiMWY2NGJmOGE3MSIsImVtYWlsIjoidGxpYTd6djd6MUBjbWh2enlsbWZjLmNvbSIsImlhdCI6MTc0MTQ3NTkwMywiZXhwIjoxNzQxNDc5NTAzfQ.mbsqVu9QW8335GV78C8EgDf4kv9GivAHgc_OyiyN0lk",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NkNjVlNjU2NTdlMGUxMDE1MWNhNCIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTQ3ODkwNCwiZXhwIjoxNzQxNDgyNTA0fQ.F0xSmPLW0wQ0AIw3Z41BIEWoQBRcG3RV2SXBBgJUQD8",
 								"type": "text"
 							}
 						],
@@ -865,15 +865,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/company/67ccc9808ecd7b1f64bf8aa8/job",
-							"protocol": "http",
+							"raw": "{{baseURL}}/company/67ccd8d87421f29ce7ae0334/job",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"company",
-								"67ccc9808ecd7b1f64bf8aa8",
+								"67ccd8d87421f29ce7ae0334",
 								"job"
 							]
 						}
@@ -881,7 +879,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Jobs Of A Company",
+					"name": "Untitled Request",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -904,12 +902,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/company/name/ejadaaaa/job/jobForCompany?jobId=67ccd0d26e368fa0b22d8153&page=1",
-							"protocol": "http",
+							"raw": "{{baseURL}}/company/name/ejadaaaa/job/jobForCompany?jobId=67ccd0d26e368fa0b22d8153&page=1",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"company",
 								"name",
@@ -938,7 +934,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzRhOGY0N2ExZjgwZGRmOWE5YTA3NyIsImVtYWlsIjoibWluYXdhbm55MjNAZ21haWwuY29tIiwiaWF0IjoxNzQxNDU0OTAyLCJleHAiOjE3NDE0NTg1MDJ9.YFuDEiM5MGWf5fH3T8hSoerNlWMr5ri7tkSF4fZYuXE",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NkNjVlNjU2NTdlMGUxMDE1MWNhNCIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTQ3ODkwNCwiZXhwIjoxNzQxNDgyNTA0fQ.F0xSmPLW0wQ0AIw3Z41BIEWoQBRcG3RV2SXBBgJUQD8",
 								"type": "text"
 							}
 						],
@@ -952,13 +948,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/job/67cc8194e5be3f7edb2754c4",
+							"raw": "{{baseURL}}/job/67ccdc334de53dd8a1646a7e",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"job",
-								"67cc8194e5be3f7edb2754c4"
+								"67ccdc334de53dd8a1646a7e"
 							]
 						}
 					},
@@ -1045,7 +1041,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2M4NGRlZjBlMDk2YWE0YTVlNzRlNCIsImVtYWlsIjoiaGVob3A2OTM5NkBtYWtyb3lhbC5jb20iLCJpYXQiOjE3NDE0NTc3MDIsImV4cCI6MTc0MTQ2MTMwMn0.wKEw0nSlNQHAcK4WGb-79D8wWTFmhJtAfZH1Tb7h4c0",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2NkNjVlNjU2NTdlMGUxMDE1MWNhNCIsImVtYWlsIjoibWluYV93YW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTc0MTQ3ODkwNCwiZXhwIjoxNzQxNDgyNTA0fQ.F0xSmPLW0wQ0AIw3Z41BIEWoQBRcG3RV2SXBBgJUQD8",
 								"type": "text"
 							}
 						],
@@ -1055,18 +1051,18 @@
 								{
 									"key": "CV",
 									"type": "file",
-									"src": "/D:/GP - Tailored CV Generation/Papers/resumeflow.pdf"
+									"src": []
 								}
 							]
 						},
 						"url": {
-							"raw": "{{baseURL}}/job/67cc8bc59cb1657e096176de/apply",
+							"raw": "{{baseURL}}/job/67ccdc334de53dd8a1646a7e/apply",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"job",
-								"67cc8bc59cb1657e096176de",
+								"67ccdc334de53dd8a1646a7e",
 								"apply"
 							]
 						}
